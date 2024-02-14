@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fdc9d1;
+    font-size: 12px;
+    overflow: auto
+}
+
+#mainDiv {
+    width: 100%;
+    height: 100%
+}
+
+#loveHeart {
+    width: 335px;
+    height: 310px;
+    position: relative;
+}
+
+
+#elapseClock {
+    text-align: right;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#words {
+    font-family: "sans-serif";
+    width: 335px;
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+    margin: 20px;
+}
+
+#messages {
+    display: none;
+    text-align: center; /* Вирівнюємо текст у центрі */
+}
+
+#elapseClock .digit {
+    font-family: "digit";
+    font-size: 28px;
+}
+
+#loveu {
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    display: none
+}
+
+#loveu .signature {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#clickSound {
+    display: none
+}
+
+h1 {
+    text-align: center; /* Вирівнюємо текст у центрі */
+}
+
+
+.text{
+    width: 300px;
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
+}
+
+.input-image{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+}
+

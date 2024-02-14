@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Our Love Story</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('digital.ttf') format("truetype");
+		}
+	</style>
+	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+</head>
+
+<body>
+<div id="mainDiv">
+	<div id="content">
+		<div class="mainContent">
+			<h1>Валентинка</h1>
+			<div class="text">Оскільки я програміст я вирішив привітати тебе так.</div>
+			<div class="text">Ця ідея мені прийшла в останню мить і я незнаю шо получиться, але якшо ти це бачиш - то шось таки получилось)</div>
+			<div class="text">Хочеться згадати першу зустріч і першу прогулянку Стрийським парком.</div>
+			<div class="text">А далі все як в казці: вечірні прогулянки по полях, озерах та перша моя випита бутилочка комбучі)</div>
+			<img class="input-image" src="image/na-kolinax.jpg" alt="фото">
+			<img class="input-image" src="image/lustochok.jpg" alt="фото">
+			<div class="text">Кожного разу згадується ця чарівна ніч 27 серпня. Це озеро і сузір'я.</div>
+			<img class="input-image" src="image/cypytniku.jpg" alt="фото">
+			<img class="input-image" src="image/gor_flower.png" alt="фото">
+			<div class="text">З тобою в мене появлялись страхи і пропадали. Ось один із них)</div>
+			<img class="input-image" src="image/mastehin.jpg" alt="фото">
+			<div class="text">Якшо будеш нечемна, то в мене є дещо...</div>
+			<img class="input-image" src="image/knife.jpg" alt="фото">
+			<div class="text">Потім будеш лежати ЗЛІВА замість цього чоловічка!</div>
+			<img class="input-image" src="image/truna.jpg" alt="фото">
+			<div class="text">Я безмежно радий життю що подарив мені тебе.</div>
+			<img class="input-image" src="image/photo1.jpg" alt="фото">
+			<img class="input-image" src="image/photo2.jpg" alt="фото">
+			<img class="input-image" src="image/photo3.jpg" alt="фото">
+			<img class="input-image" src="image/photo4.jpg" alt="фото">
+		</div>
+		<div id="words">
+			Я закоханий в тебе вже
+			<div id="elapseClock"></div>
+			<img class="input-image" src="image/heart.png" alt="фото">
+			Кохаю тебе безмежно &#x1F496;<br/>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	var together = new Date();
+	together.setFullYear(2023, 7, 27);
+	together.setHours(22);
+	together.setMinutes(0);
+	together.setSeconds(0);
+	together.setMilliseconds(0);
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
+</script>
+</body>
+</html>
